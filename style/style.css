@@ -1,6 +1,6 @@
 /*------- Global css ------*/
 :root{
-    --Font:#E5E5E5;
+    --Font: #D8DFE8;
     --White: #FFFFFF;
     --Dark-Blue: #0A3871;
     --Grey:#C5C5C5;
@@ -18,7 +18,7 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
-    background: var(--White);
+    background: var(--Font);
 }
 
 ::selection{
@@ -28,6 +28,7 @@
 
 body{
     height: 100%;
+    
 }
 
 img{
@@ -155,7 +156,7 @@ main{
 .tarjeta{
     width: 350px;
     height: 580px;
-    background: var(--Font);
+    background: var(--White);
     box-shadow: 10px 24px 32px -8 var(--Gray);
     position: relative;
     margin-top: 40px;
@@ -167,11 +168,11 @@ main{
     width: 280px;
     margin: auto;
     margin-top: 35%;
-    background: var(--Font);
+    background: var(--White);
 }
 
 .img-muñeco{
-    background: var(--Font);
+    background: var(--White);
 }
 .texto-uno{
     font-style: normal;
@@ -180,7 +181,7 @@ main{
     line-height: 120%;
     text-align: center;
     color: var(--Gray);
-    background: var(--Font);
+    background: var(--White);
 }
 
 .texto-dos {
@@ -190,7 +191,7 @@ main{
     line-height: 150%;
     text-align: center;
     color: var(--Medium-Gray);
-    background: var(--Font);
+    background: var(--White);
 }
 
 .evaluar{
@@ -227,7 +228,7 @@ main{
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    background: var(--Whithe-Blue);
+    background: var(--Whithe);
     border: 1px solid var(--Dark-Blue);
     border-radius: 20px;
     cursor: pointer;
