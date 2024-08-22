@@ -7,7 +7,9 @@ const contenido = document.querySelector(".tarjeta-contenedor");
 const btnCopiar = document.querySelector(".btn-copiar");
 const btnDesencriptar = document.querySelector(".btn-desencriptar");
 
-
+function limpiarTexto() {
+    document.querySelector('#encriptar').value = '';
+}
 // Boton de Encriptar
 
 btnEncriptar.addEventListener("click", e=>{
@@ -52,6 +54,8 @@ btnEncriptar.addEventListener("click", e=>{
         texto = texto.replace(/a/mg, "ai");
         texto = texto.replace(/o/mg, "ober");
         texto = texto.replace(/u/mg, "ufat");
+
+        limpiarTexto();
 
         respuesta.innerHTML = texto;
         btnCopiar.style.visibility = "inherit";

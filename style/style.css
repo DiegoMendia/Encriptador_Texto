@@ -297,7 +297,7 @@ main{
         position: absolute;
         align-items: center;
         justify-content: center;
-        width: 80%;
+        width: 72%;
 
     }
 
@@ -328,8 +328,7 @@ main{
 
     .encriptar{
         width: 80%;
-        height: 250px;
-
+        height: 290px;
         font-size: 24px;
     }
 
@@ -340,12 +339,12 @@ main{
 
     .tarjeta{
         width: 90%;
-        height: 240px;
+        height: 280px;
     }
 
     .evaluar{
-        padding: 0px;
-        margin: 0px;
+        height: 170px;
+        
     }
 
 
