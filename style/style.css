@@ -47,6 +47,7 @@ header .logo{
     align-items: flex-start;
     width: 120px;
     height: 48px;
+    background: var(--Font);
 }
 
 /* ------- Principal ----------- */
@@ -293,8 +294,11 @@ main{
     }
 
     .btn-copiar{
-        position: inherit;
-        width: 100%;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+
     }
 
     .evaluar{
@@ -307,22 +311,41 @@ main{
 @media(max-width: 720px){
     header .logo{
         width: 100%;
-        background: var(--White);
+        background: var(--Font);
         padding: 2px;
     }
 
+    .encriptador{
+        
+        margin: 100px 0px 0px 0px;
+        gap: 8px;
+    }
+    
+    .encriptador-aviso{
+        
+        margin: 0px;
+    }
+
     .encriptar{
-        width: 90%;
+        width: 80%;
+        height: 250px;
+
         font-size: 24px;
     }
 
     .encriptador-contenedor{
         display: grid;
-        gap: 21px;
+        gap: 10px;
     }
 
     .tarjeta{
         width: 90%;
+        height: 240px;
+    }
+
+    .evaluar{
+        padding: 0px;
+        margin: 0px;
     }
 
 
